@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-        <Link to="/home">Home</Link>
+        <Link to="/">Home</Link>
         <br></br>
         <Link to="/about">About</Link>
         <br></br>
@@ -16,7 +16,7 @@ function App() {
 
         <Routes>
           <Route path="/about" element={<About />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/sources" element={<Sources />} />
         </Routes>
       </BrowserRouter>
